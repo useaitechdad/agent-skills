@@ -108,7 +108,9 @@ agent-skills/
 
 ## Disclaimer
 
-**These skills are provided for educational and personal use.** Always test skills thoroughly in your own environment before relying on them for critical tasks. The implementations and behaviors you receive from your AI agent may vary.
+**These skills are provided for educational and personal use.** They demonstrate image processing techniques using standard open-source libraries (NumPy, Pillow). Always test skills thoroughly in your own environment before relying on them for critical tasks.
+
+**Important:** The watermark remover skill only removes the *visible* logo overlay using reverse alpha blending — a standard image processing technique. It does **not** remove or alter Google's invisible [SynthID](https://deepmind.google/technologies/synthid/) provenance metadata embedded in AI-generated images.
 
 ## License
 
